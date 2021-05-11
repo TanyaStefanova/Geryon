@@ -1,0 +1,565 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-color: #F0F1F5;
+    font-family: 'Montserat', sans-serif;
+}
+
+/*header*/
+
+nav{
+    background-color: white;
+}
+
+nav ul{
+    margin-block-start: 0;
+    text-align: center;
+    margin-block-end: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+nav ul li:last-child button{
+    padding-left: 15px;
+}
+
+button{
+    border: 1px solid black;
+    background-color: #BFBFBF;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100px;
+    float: right;
+}
+nav ul li a button:hover{
+    cursor:pointer;
+    background-color: grey;
+}
+
+nav li a{
+    text-decoration: none;
+    display: block;
+    float: right;
+    color: black;
+}
+
+.menu{
+    margin: 20px 0;
+    display: inline-block;
+    padding-inline-start: 0;
+}
+
+.logo-nav{
+    float: left;
+    width: 20rem;
+    display: block;
+    padding: 20px 235px 0 45px;
+}
+
+nav p {
+    float: right;
+    margin: 0px 45px 0 0;
+    padding-left: 0;
+}
+
+.language-switch{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+
+nav p .language-switch:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.text{
+   display: inline-block;
+   color:#BFBFBF;
+   font-weight: bold;
+   font-size: 25px;
+   padding-top: 10px;
+}
+
+nav div:nth-of-type(2){
+    margin-left: 62px;
+}
+
+nav div:first-of-type{
+    margin-left: 277px;
+}
+
+.image{
+    background: url('./control-valves-hero.jpg'), no-repeat, center;
+    background-size: cover;
+    display: block;
+    padding-top: 30%;
+}
+
+.image.neles{
+    background: url('./neles-img.jpg'), no-repeat, center;
+    background-size: cover;
+    display: block;
+    padding-top: 30%;
+}
+
+.image.valmet{
+    background: url('./cropped-valmet.jpg'), no-repeat, center;
+    background-size: cover;
+    display: block;
+    padding-top: 30%;
+}
+
+.image-hzi{
+    background: url('./HZI-Website-image.jpg'), no-repeat, center;
+    background-size: cover;
+    display: block;
+    padding-top: 30%;
+}
+
+.image-contacts{
+    background: url('./image-contacts.jpg'), no-repeat, center;
+    background-size: cover;
+    display: block;
+    padding-top: 30%;
+}
+
+/*main*/
+
+section article p{
+    font-size: 25px;
+    width: 62%;
+    text-align: justify;
+    padding-left: 20%;
+}
+
+main section{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*footer*/
+
+footer{
+    background-color: #BFBFBF;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-bottom: 73px;
+}
+
+.logo-footer{
+    float: left;
+    width: 12%;
+    display: block;
+    padding: 33px 0px 0 45px;
+}
+
+footer ul li a{
+    text-decoration:none;
+    text-align: center;
+}
+
+footer ul{
+    display: inline-block;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    display: inline-block;
+    margin-left: 153px;
+    padding-block-start: 2.3rem;
+    font-size: 20px;
+}
+
+footer li:nth-child(4){
+    margin-right: 126px;
+}
+
+li:nth-child(4).bg.footer-partners{
+    margin-right: 106px;
+}
+
+
+.bg-page{
+    padding-left: 122px;
+    margin-left: 0;
+}
+
+div p{
+    float: right;
+}
+
+footer p:last-child{
+    float: right;
+    width: 13%;
+    margin-block-start: 0;
+    margin-right: 1.3%;
+    margin-block-end: 0;
+}
+
+.address{
+    display: inline-block;
+    padding-left: 56px;
+    margin: 0;
+}
+
+.address.bg{
+    padding-left: 0;
+}
+
+.address.bg-page{
+margin-left: 95px;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-partners:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.manager-contact{
+    border-left: 2px solid;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.sales-manager-contact{
+    margin-top: 5px;
+    margin-left: 138px;
+    margin-right: 5px;
+    border-left: 2px solid;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.personal-contact{
+    display: inline-block;
+}
+
+.personal-contact div:first-of-type{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*media queries*/
+
+@media (min-width: 1280px) and (max-width: 1296px) {
+
+    .logo-nav{
+        padding: 20px 10px 0 45px;
+    }
+
+    body > header > nav > div {
+        margin-left: 0;
+    }
+
+    body > footer > div > ul > li{
+        margin-left: 100px;
+    }
+
+    .bg-page{
+        padding-left: 111px;
+    }
+
+    .address{
+        padding-left: 50px;
+    }
+
+    li:nth-child(4).bg.footer-partners{
+        margin-right: 62px;
+    }
+
+    body > footer > div > p:last-child{
+       margin-right: 4.3%; 
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .menu{
+        width: 50%;
+    }
+
+    nav div:first-of-type {
+        margin-left: 0;
+    }
+
+    .logo-nav{
+        padding-right: 60px;
+        width: 28%;
+    }
+
+    body > header > nav > div > ul > li{
+        display: block;
+    }
+
+    body > header > nav > div > ul > li > a{
+        width: 100%;
+    }
+
+    body > header > nav > div > ul > li > a > button{
+        width: 100%;
+    }
+
+    .manager-contact.personal-contact{
+        margin-left: 20%;
+    }
+
+    .footer-bar{
+        width: 100%;
+    }
+
+    .logo-footer{
+        width: 20%;
+        float: none;
+    }
+
+    footer li, .address{
+        display: block;
+        margin-left: 43px;
+    }
+
+    .bg-page{
+        padding-left: 43px;
+    }
+
+    .address{
+        margin-top: 20px;
+        padding-left: 0;
+    }
+
+    footer p:last-child{
+        float: left;
+        width: 70%;
+        margin-left: 40px;
+    }    
+}
+  
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .menu{
+        width: 50%;
+    }
+
+    nav div:first-of-type {
+        margin-left: 0;
+    }
+
+    .logo-nav{
+        padding-right: 60px;
+        width: 28%;
+    }
+
+    body > header > nav > div > ul > li{
+        display: block;
+    }
+
+    body > header > nav > div > ul > li > a{
+        width: 100%;
+    }
+
+    body > header > nav > div > ul > li > a > button{
+        width: 100%;
+    }
+
+    .manager-contact{
+        margin-left: 15%;
+    }
+
+    .footer-bar{
+        width: 100%;
+    }
+
+    .logo-footer{
+        width: 20%;
+        float: none;
+    }
+
+    footer li, .address{
+        display: block;
+        margin-left: 43px;
+    }
+
+    .bg-page{
+        padding-left: 43px;
+    }
+
+    .address{
+        margin-top: 20px;
+        padding-left: 0;
+    }
+
+    footer p:last-child{
+        float: left;
+        width: 70%;
+        margin-left: 40px;
+    }
+    
+  }
+  
+@media (min-width: 481px) and (max-width: 767px){
+
+    .menu{
+        width: 50%;
+    }
+
+    .personal-contact{
+        display: block;
+        width: 60%;
+    }
+
+    @media (min-width: 481px) and (max-width: 493px){
+        .menu{
+            width: 100%;
+        }
+    }
+
+    nav div:first-of-type {
+        margin-left: 0;
+    }
+
+    .logo-nav{
+        padding-right: 60px;
+        width: 28%;
+    }
+
+    body > header > nav > div > ul > li{
+        display: block;
+    }
+
+    body > header > nav > div > ul > li > a{
+        width: 100%;
+    }
+
+    body > header > nav > div > ul > li > a > button{
+        width: 100%;
+    }
+
+    .personal-contact{
+        margin-left: 27%;
+    }
+
+    .sales-manager-contact{
+        margin-top: 5%;
+    }
+
+    .footer-bar{
+        width: 100%;
+    }
+
+    .logo-footer{
+        width: 25%;
+        float: none;
+    }
+
+    footer li, .address{
+        display: block;
+        margin-left: 43px;
+    }
+
+    .bg-page{
+        padding-left: 43px;
+    }
+
+    .address{
+        margin-top: 20px;
+        padding-left: 0;
+    }
+
+    footer p:last-child{
+        float: left;
+        width: 70%;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 480px){
+
+    .menu{
+        width: 100%;
+    }
+
+    nav div:first-of-type {
+        margin-left: 0;
+    }
+
+    .logo-nav{
+        padding-right: 60px;
+        width: 28%;
+    }
+
+    body > header > nav > div > ul > li{
+        display: block;
+    }
+
+    body > header > nav > div > ul > li > a{
+        width: 100%;
+    }
+
+    body > header > nav > div > ul > li > a > button{
+        width: 100%;
+    }
+
+    body > main > section > article > p{
+        font-size: 20px;
+    }
+
+    .personal-contact{
+        margin-left: 21%;
+    }
+
+    .sales-manager-contact{
+        margin-top: 5%;
+    }
+
+    .footer-bar{
+        width: 100%;
+    }
+
+    .logo-footer{
+        width: 25%;
+        float: none;
+    }
+
+    footer li, .address{
+        display: block;
+        margin-left: 43px;
+    }
+
+    .bg-page{
+        padding-left: 43px;
+    }
+
+    .address{
+        margin-top: 20px;
+        padding-left: 0;
+    }
+
+    footer p:last-child{
+        float: left;
+        width: 70%;
+        margin-left: 40px;
+    }
+}
